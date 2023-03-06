@@ -20,7 +20,7 @@ export const fileUpload = async(file) =>{
         return cloudResp.secure_url;
 
     } catch (error) {
-        console.log("error",error);
+    
         //throw new Error(error.message);
         return null;
         
